@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017/8/2 10:23:59。
+     1>项目“D:\vs2012\PROJECT\HC_2\hc_2\hc_2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2012\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\hc_2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2012\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\hc_2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt hc_2.cpp hc_2Dlg.cpp mscomm1.cpp
+         mscomm1.cpp
+         hc_2Dlg.cpp
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(3): warning C4627: “#include <iostream>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(4): warning C4627: “#include <string>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(64): warning C4244: “初始化”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(73): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vs\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(524): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(530): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(557): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(615): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(673): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(776): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(802): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(828): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(957): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(958): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(983): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(984): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1008): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1009): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1034): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1060): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1086): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1112): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1139): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1165): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1198): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1204): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1233): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1239): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1245): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1271): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1272): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1297): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1450): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1457): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1463): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1559): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1565): warning C4309: “=”: 截断常量值
+     1>d:\vs2012\project\hc_2\hc_2\hc_2dlg.cpp(1571): warning C4309: “=”: 截断常量值
+         hc_2.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\hc_2.res" hc_2.rc 
+       Link:
+         D:\vs2012\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs2012\PROJECT\HC_2\Debug\hc_2.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2012\VS\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\vs2012\PROJECT\HC_2\Debug\hc_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs2012\PROJECT\HC_2\Debug\hc_2.lib" /MACHINE:X86 /DLL Debug\hc_2.res
+         Debug\hc_2.obj
+         Debug\hc_2Dlg.obj
+         Debug\mscomm1.obj
+         Debug\stdafx.obj
+         hc_2.vcxproj -> D:\vs2012\PROJECT\HC_2\Debug\hc_2.dll
+     1>已完成生成项目“D:\vs2012\PROJECT\HC_2\hc_2\hc_2.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.93

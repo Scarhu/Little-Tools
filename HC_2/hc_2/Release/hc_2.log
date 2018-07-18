@@ -1,0 +1,67 @@
+﻿生成启动时间为 2017/8/22 14:11:16。
+     1>项目“D:\vs2012\PROJECT\HC_2\hc_2\hc_2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2012\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\hc_2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2012\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\hc_2.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt hc_2.cpp hc_2Dlg.cpp mscomm1.cpp
+         hc_2.cpp
+         hc_2Dlg.cpp
+     1>hc_2Dlg.cpp(3): warning C4627: “#include <iostream>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>hc_2Dlg.cpp(4): warning C4627: “#include <string>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>hc_2Dlg.cpp(64): warning C4244: “初始化”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>hc_2Dlg.cpp(73): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>hc_2Dlg.cpp(435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2012\VS\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>hc_2Dlg.cpp(524): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(530): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(557): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(615): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(673): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(776): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(802): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(828): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(957): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(958): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(983): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(984): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1008): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1009): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1034): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1060): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1086): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1112): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1139): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1165): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1198): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1204): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1233): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1239): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1245): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1271): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1272): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1297): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1450): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1457): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1463): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1559): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1565): warning C4309: “=”: 截断常量值
+     1>hc_2Dlg.cpp(1571): warning C4309: “=”: 截断常量值
+         mscomm1.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\hc_2.res" hc_2.rc 
+       Link:
+         D:\vs2012\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs2012\PROJECT\HC_2\Release\hc_2.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2012\VS\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\vs2012\PROJECT\HC_2\Release\hc_2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs2012\PROJECT\HC_2\Release\hc_2.lib" /MACHINE:X86 /SAFESEH Release\hc_2.res
+         Release\hc_2.obj
+         Release\hc_2Dlg.obj
+         Release\mscomm1.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         hc_2.vcxproj -> D:\vs2012\PROJECT\HC_2\Release\hc_2.exe
+     1>已完成生成项目“D:\vs2012\PROJECT\HC_2\hc_2\hc_2.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:47.20
